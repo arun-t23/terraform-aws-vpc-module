@@ -60,7 +60,7 @@ Refer to [variables.tf](terraform-aws-vpc-module/variables.tf) for exact types a
 - [locals.tf](terraform-aws-vpc-module/locals.tf) defines `local.common_name_suffix`, `local.common_tags`, and `local.az_names` used to construct names and consistent tags across resources.
 
 ## Usage example
-Example invoking module (see [terraform-aws-vpc-test/main.tf](terraform-aws-vpc-test/main.tf) and [roboshop-dev-infra/00-vpc/main.tf](roboshop-dev-infra/00-vpc/main.tf)):
+Example invoking module (see [terraform-aws-vpc-test/main.tf](terraform-aws-vpc-test/main.tf):
 
 ```hcl
 module "vpc" {
